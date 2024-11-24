@@ -1,0 +1,44 @@
+
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: auto auto ;
+background-color: rgb(88, 166, 140);
+}
+.nav-links{
+list-style: none;
+display: flex;
+gap: 10px;
+}
+.nav-links a {
+text-decoration: none;
+color: white;
+transition: 0.3s ;
+}
+
+.nav-links a:hover {
+    color: #ff9800;
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: #a66503;
+}
+body, ul, il {
+box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    }
+.héro {
+height: 30vh;
+background: url('https://source.unsplash.com/1600x900/?food') no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: white;
+position: absolute;
+}

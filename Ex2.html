@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Restaurant Qessa</div>
+    <ul class="nav-links">
+        <li><a href="#home">Accueil</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="about">À propos de nous</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+    <section class="héro">
+        <div class="héro-content">
+        <h1>Découvrez nos délices </h1>
+        <p>Un voyage culinaire exceptionnel vous attend.</p>
+        <a href="#menu" class="héro-btn">Voir le menu</a>
+    </div>
+    </section>
+<section>Menu
+    
+    <div>
+        <img src="soupe.jpeg" alt="Soupe">
+    <h2>Soupe de lentilles</h2>
+    <p>C'est une soupe healthy,composé de légumes verts et de lentilles variés </p>
+    <p>Prix : <span>15dt</span></p>
+    <img src="soupe.jpeg" alt="Soupe">
+    </div>
+    <div>
+        <img src="lasagne.jpeg" alt="Lasagna"> 
+        <h2>lasagna</h2>
+        <p>C'est un plat italien, composé par sauce tomate,sauce béchamel, viande hachée et mozarella  </p>
+        <p>Prix : <span>20dt</span></p>
+        <img src="lasagne.jpeg" alt="Lasagna">   
+     </div>
+     <div>
+        <img src="kabsa.jpeg" alt="Kabsa">
+        <h2>Kabsa</h2>
+        <p>c'est un plat arabien, composé de riz, poulet et des fruits sec </p>
+        <p>Prix : <span>30dt</span></p>
+        <img src="kabsa.jpeg" alt="Kabsa">
+     </div>
+</section> 
+<section id="contact">  
+    <h2>Contactez-nous</h2>
+    <form action="traitement.php" method="post">
+        <div class="form">
+            <label for="nom">Votre nom :</label>
+            <input type="text" id="nom" name="Nom" required>
+        </div>
+        <br>
+       <div class="form">
+        <label for="email">Votre email :</label>
+        <input type="email" id="email" name="Email" required>
+       </div> 
+       <br>
+    <div class="form">
+        <label for="message">Message</label>
+        <textarea name="message" rows="5" required></textarea>
+    </div>
+    <br>
+    <input type="button" value="Envoyer">
+</form>
+</section>
+</body>
+</html>
